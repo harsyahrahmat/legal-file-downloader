@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Legal File Downloader</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+<div class="max-w-xl w-full p-6 bg-white rounded-xl shadow">
+<h1 class="text-2xl font-semibold mb-3">Legal File Downloader</h1>
+<p class="text-sm text-gray-600 mb-4">Masukkan URL file publik (yang lo punya / yang diizinkan) lalu tekan Download.</p>
+
+
+<label class="block mb-2">URL</label>
+<input id="url" class="w-full p-2 border rounded mb-3" placeholder="https://example.com/file.mp4" />
+
+
+<div class="flex gap-2">
+<button id="btn" class="px-4 py-2 bg-blue-600 text-white rounded">Download</button>
+<button id="clear" class="px-4 py-2 border rounded">Clear</button>
+</div>
+
+
+<div id="msg" class="mt-4 text-sm"></div>
+</div>
+
+
+<script src="/app.js"></script>
+</body>
+</html>
