@@ -1,4 +1,3 @@
-```js
 // server.js
 import express from "express";
 import fetch from "node-fetch";
@@ -60,6 +59,3 @@ const response = await fetch(url, { redirect: 'follow', timeout: 30000 });
 
 
 if (!response.ok) return res.status(400).json({ error: 'Failed to fetch file (remote error)' });
-
-
-```
